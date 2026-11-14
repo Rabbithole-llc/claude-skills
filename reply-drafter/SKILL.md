@@ -40,7 +40,7 @@ Take up to 10, then sort by priority (newest first within each group):
 
 **If you can't search email:** say "Paste the customer messages you need to answer (up to 10). Copy and paste is fine," and use those.
 
-If the connector isn't available but they expected it, tell them how: "Turn on Gmail: + (bottom left of the message box) → Connectors → Gmail. Not connected yet? Customize → Connectors → Gmail → Connect."
+If the connector isn't available but they expected it, tell them how: "Turn on Gmail: + (bottom left of the message box) → Connectors → Gmail. Not connected yet? Plugins → Connectors → search Gmail → Connect."
 
 ## Step 2: Show the list
 

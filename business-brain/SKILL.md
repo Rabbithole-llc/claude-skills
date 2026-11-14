@@ -81,7 +81,7 @@ Then a short numbered list, with a tiny generic example after each.
 - Who buys it, and the problem it solves
 - Contact details for paperwork
 - Any clash you found between sources
-- Where to save the files (only if you can write to folders; suggest `My Business`)
+- Where to save the files (only in Claude Code or Cowork with their own folder open; suggest `My Business`)
 
 **Regulated or claims-sensitive businesses** (medical, aesthetics, health, fitness results, legal, financial, accounting, insurance, real estate, marketing or lead-gen agencies asked to guarantee results) also get:
 - Anything you're not allowed to claim or say? (e.g. "never promise results", "no tax advice")
@@ -207,8 +207,8 @@ Each correction: show the fixed draft, update the right file, add a dated line t
 
 ### Step 5: Deliver once
 
-- **Can write to folders** (Claude Code, Cowork): write the files into their chosen folder; list them with one line each.
-- **Claude.ai with file creation:** zip the seven files flat as `my-business-brain.zip`; show `CLAUDE.md` in chat.
+- **Claude Code or Cowork with their own folder open:** write the files into that folder; list them with one line each.
+- **The Claude app (claude.ai, desktop or mobile):** your workspace there is temporary, and a new chat can't see it, so **never say the files are "saved"**. Zip the seven files flat as `my-business-brain.zip`, share the download, and show `CLAUDE.md` in chat. Then give the Project setup below.
 - **Can't create files:** paste each file in its own titled block and say: "Copy each block into a text file named as shown, or paste it straight into your Project (instructions for CLAUDE.md, files for the rest)."
 
 Then a **"Still missing"** list: the 3 most valuable `[CHECK]` items, most important first, one line each on why it helps, plus "and N smaller gaps" if more. Skip if nothing's missing.

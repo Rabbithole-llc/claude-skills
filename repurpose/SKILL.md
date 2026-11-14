@@ -27,7 +27,7 @@ Ask for one of:
 - **A transcript** (best). From YouTube: open the video → "…more" → "Show transcript", then copy it. From CapCut, Descript or a podcast host: export the captions.
 - A link, if you can read it. If you can't open it, say so and ask for the transcript.
 - A blog post, newsletter or notes.
-- **No source?** A theme for the week ("why biweekly cleaning saves time"). Ask up to 3 quick questions in one message to get raw material, e.g. "What do customers say after switching? Any story worth telling? What's the mistake people make?" If they skip them or answer thinly, use their answers and brain files plus plain, non-numeric points about the theme any owner in their field would agree with (no stats, no results claims), and list those points under "Check before posting".
+- **No source?** A theme for the week ("why biweekly cleaning saves time"). **Ask these 3 quick questions first, in one message, and wait for the answer** (this is what makes the week theirs, not generic): e.g. "What do customers say after switching? Any story worth telling? What's the mistake people make?" If they skip them or answer thinly, use their answers and brain files plus plain, non-numeric points about the theme any owner in their field would agree with (no stats, no results claims), and list those points under "Check before posting".
 
 ## Rules
 

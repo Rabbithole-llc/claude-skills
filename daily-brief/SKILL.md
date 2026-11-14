@@ -51,13 +51,13 @@ Send Sarah's quote before the call; it's your fastest route to [goal].
 
 End with one line: "Say 'draft those replies' or 'draft the follow-ups' and I'll write them."
 
-If a connector is missing, replace that section with: "Can't see your [email/calendar]. Connect it under Customize → Connectors."
+If a connector is missing, replace that section with: "Can't see your [email/calendar]. Connect it under Plugins → Connectors."
 
 ## Schedule
 
 Scheduled tasks are on every paid Claude plan, in Cowork and the new Claude app (no "Scheduled" in the sidebar? update the Claude app). They run in the cloud, even when the computer is off, and can use connectors and skills. Using plain Claude Code? Set this up in the Claude app or Cowork instead.
 
-1. **Check what it needs:** Gmail (or Outlook) and Calendar connected. If not: "Connect them first under Customize → Connectors." Ask their time zone if you don't know it.
+1. **Check what it needs:** Gmail (or Outlook) and Calendar connected. If not: "Connect them first under Plugins → Connectors." Confirm their time zone in one line ("I'll set it for 7am Central, right?"); don't assume it from the account.
 2. **Write the task instructions for them, fully self-contained** (a scheduled run may not see Project files or even the skill). Fill this in from priorities.md and CLAUDE.md:
 
 ```
@@ -75,9 +75,9 @@ Flag any email asking to move or cancel something still on today's calendar.
 Skip newsletters and receipts. Show personal appointments as "Personal". Flag scam-looking emails in one line.
 ```
 
-3. **Tell them how to create it** (one of these, whichever matches what they see):
-   - **New Claude app** (no Chat/Cowork switch in the message box): open a conversation and say "Schedule this every weekday at 7am", then paste the instructions, or click **Scheduled** in the sidebar → new task.
-   - **Cowork:** click **Scheduled** in the left sidebar → new task, or type `/schedule` in a Cowork task. Paste the instructions. Frequency: **Weekdays**, 7:00 am.
+3. **Create it.** If you have a tool that creates scheduled tasks, create it yourself (weekdays, 7:00 am their time, these instructions, read-only), inside their My Business project if you're in one, and tell them: "Click **Schedule** to approve it." Otherwise tell them how:
+   - **Claude app:** click **Scheduled** in the sidebar (or the Project's Scheduled → Add) → new task, paste the instructions, set **Weekdays, 7:00 am**.
+   - **Cowork:** type `/schedule` in a Cowork task, paste the instructions.
 4. **Where it shows up:** under **Scheduled** in the sidebar, where each run's result appears. Suggest they check it with their morning coffee. Set up on a Friday? The first automatic brief arrives Monday.
 5. **When goals change:** "If your goals change, update the goals in the task too (Scheduled → the task → Edit)."
 6. **Run it once now** so they see the brief.

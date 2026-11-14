@@ -28,7 +28,7 @@ If a connector isn't available to you, that item scores 0. Never pretend a check
 **Do** and **Run** are partly invisible to you. Ask once, in one message:
 
 > A few quick ones for your score:
-> 1. Which skills have you installed? (Customize → Skills; just list the names)
+> 1. Which skills have you installed? (Plugins → Skills; just list the names)
 > 2. Which one did you use on real work this week, and did you use what it made?
 > 3. Do you have any scheduled tasks? (Look for "Scheduled" in the sidebar.) If yes, has one run, and where does the result show up?
 > 4. To count as **shown** instead of self-reported: paste (or screenshot) one thing a skill made that you used, and the first lines of your latest scheduled run.
