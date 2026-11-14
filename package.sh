@@ -21,3 +21,18 @@ for n in $skills; do cp -R $n "$tmp/My Business/.claude/skills/"; done
 (cd "$tmp" && zip -qr my-business-kit.zip "My Business" -x "*.DS_Store")
 mv "$tmp/my-business-kit.zip" dist/ && rm -rf "$tmp"
 echo "dist/my-business-kit.zip"
+
+# Marketplace plugin (claude.ai "Add marketplace" and Claude Code /plugin install):
+# plugins/my-business-kit/ is generated from the skill folders above. Edit the skills, not this copy.
+rm -rf plugins/my-business-kit/skills && mkdir -p plugins/my-business-kit/skills plugins/my-business-kit/.claude-plugin
+for n in $skills; do cp -R $n plugins/my-business-kit/skills/; done
+cat > plugins/my-business-kit/.claude-plugin/plugin.json <<JSON
+{
+  "name": "my-business-kit",
+  "displayName": "My Business Kit",
+  "version": "$(python3 -c 'import json;print(json.load(open(".claude-plugin/marketplace.json"))["plugins"][0]["version"])')",
+  "description": "Six skills that make Claude run the busywork of a small business: a business brain, inbox replies, follow-ups, a week of posts, a morning brief, and a score for your setup. Everything is drafted for you to review; nothing is sent on its own.",
+  "author": { "name": "Austin White, Rabbithole Labs" }
+}
+JSON
+echo "plugins/my-business-kit (marketplace plugin)"

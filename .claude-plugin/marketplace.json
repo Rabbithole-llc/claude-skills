@@ -1,16 +1,21 @@
 {
   "name": "rabbithole-skills",
-  "owner": { "name": "Rabbithole Labs" },
-  "metadata": { "description": "Plug-and-play Claude skills for small businesses." },
+  "owner": {
+    "name": "Rabbithole Labs"
+  },
+  "metadata": {
+    "description": "Plug-and-play Claude skills for small businesses."
+  },
   "plugins": [
     {
       "name": "my-business-kit",
       "displayName": "My Business Kit",
-      "source": "./",
+      "source": "./plugins/my-business-kit",
       "description": "Six skills that make Claude run the busywork of a small business: a business brain, inbox replies, follow-ups, a week of posts, a morning brief, and a score for your setup. Everything is drafted for you to review; nothing is sent on its own.",
       "version": "0.6.0",
-      "author": { "name": "Austin White · Rabbithole Labs" },
-      "skills": ["./business-brain", "./reply-drafter", "./follow-up", "./repurpose", "./daily-brief", "./brain-score"]
+      "author": {
+        "name": "Austin White \u00b7 Rabbithole Labs"
+      }
     }
   ]
 }
