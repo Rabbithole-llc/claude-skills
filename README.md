@@ -8,6 +8,7 @@ Plug-and-play skills for Claude that do real work for your business. No code.
 | 3 | **reply-drafter** | Finds customer emails waiting on you and drafts replies in your voice | [reply-drafter.zip](https://github.com/Rabbithole-llc/claude-skills/releases/latest/download/reply-drafter.zip) |
 | 4 | **follow-up** | Finds quotes, leads, unpaid invoices and past customers that went quiet, and drafts the nudge | [follow-up.zip](https://github.com/Rabbithole-llc/claude-skills/releases/latest/download/follow-up.zip) |
 | 5 | **repurpose** | Turns one video or transcript into a week of posts | [repurpose.zip](https://github.com/Rabbithole-llc/claude-skills/releases/latest/download/repurpose.zip) |
+| + | **hooks** | Turns 10 viral videos from your niche into 30 hooks for your business and picks the 5 to film first | [hooks.zip](https://github.com/Rabbithole-llc/claude-skills/releases/latest/download/hooks.zip) |
 | 6 | **daily-brief** | A weekday morning brief (calendar, replies waiting, follow-ups, today's one thing) that runs on its own | [daily-brief.zip](https://github.com/Rabbithole-llc/claude-skills/releases/latest/download/daily-brief.zip) |
 | 7 | **brain-score** | Scores your setup out of 100 across Know, Connect, Do and Run, with the top 3 fixes | [brain-score.zip](https://github.com/Rabbithole-llc/claude-skills/releases/latest/download/brain-score.zip) |
 
@@ -17,21 +18,23 @@ All skills draft for you to review; none of them send emails or change anything 
 
 More skills are added regularly.
 
-## Install (Claude app or claude.ai)
+## Install (Claude app or claude.ai, on a computer)
 
-**All six at once (easiest):** in Claude go to **Plugins → Add → Add marketplace**, paste `Rabbithole-llc/claude-skills`, then install **My Business Kit**.
+No download needed:
 
-**Or one at a time:** download a skill's `.zip` from the table above (don't unzip it), then **Plugins → Add → Upload plugin**, choose the zip, and click **Upload**.
+1. In Claude, click **Customize** → **Plugins** → **Add** → **Add marketplace**.
+2. Paste `Rabbithole-llc/claude-skills` and add it.
+3. Click **Install** on the one you want (for example **Viral Hooks** or **Week of Posts**), or install **My Business Kit** to get all seven.
 
 Then start a new chat and ask for it, e.g. "Set up my business brain." Skills need a paid plan (Pro or above).
 
-> Use the download links above, not GitHub's green "Code → Download ZIP" button, which wraps everything in an extra folder.
+**Or upload a file:** download a skill's `.zip` from the table above (don't unzip it), then **Customize** → **Plugins** → **Add** → **Upload plugin**.
 
 ## Claude Code or Cowork: the My Business kit
 
 Download **[my-business-kit.zip](https://github.com/Rabbithole-llc/claude-skills/releases/latest/download/my-business-kit.zip)**, unzip it, open the `My Business` folder in Claude Code or Cowork, and say "Set up my business brain." All skills are already inside `.claude/skills/` (Claude Code picks them up; if Cowork doesn't list them, add them under Plugins → Add).
 
-Or install all six in Claude Code with one command:
+Or install all seven in Claude Code with one command:
 
 ```
 /plugin install my-business-kit --marketplace Rabbithole-llc/claude-skills

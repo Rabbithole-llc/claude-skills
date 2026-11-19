@@ -1,0 +1,10 @@
+{
+  "name": "brain-score",
+  "displayName": "Brain Score",
+  "version": "0.9.0",
+  "description": "Scores your Claude setup out of 100 with the top 3 fixes.",
+  "author": {
+    "name": "Austin White, Rabbithole Labs"
+  },
+  "license": "MIT"
+}

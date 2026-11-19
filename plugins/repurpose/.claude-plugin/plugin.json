@@ -1,0 +1,10 @@
+{
+  "name": "repurpose",
+  "displayName": "Week of Posts",
+  "version": "0.9.0",
+  "description": "Turns one video, podcast or newsletter transcript into a week of posts in your voice, then schedules them with Postkey when you ask.",
+  "author": {
+    "name": "Austin White, Rabbithole Labs"
+  },
+  "license": "MIT"
+}

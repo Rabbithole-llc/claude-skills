@@ -1,0 +1,10 @@
+{
+  "name": "reply-drafter",
+  "displayName": "Reply Drafter",
+  "version": "0.9.0",
+  "description": "Finds customer emails waiting on you and drafts replies in your voice.",
+  "author": {
+    "name": "Austin White, Rabbithole Labs"
+  },
+  "license": "MIT"
+}

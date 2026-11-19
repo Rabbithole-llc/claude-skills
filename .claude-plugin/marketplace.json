@@ -8,13 +8,83 @@
   },
   "plugins": [
     {
+      "name": "hooks",
+      "displayName": "Viral Hooks",
+      "source": "./plugins/hooks",
+      "description": "Give it 10 viral videos from your niche and it writes 30 hooks for your business, picks the 5 to film first, and sets up comment-keyword DMs with Postkey.",
+      "version": "0.9.0",
+      "author": {
+        "name": "Austin White · Rabbithole Labs"
+      }
+    },
+    {
+      "name": "repurpose",
+      "displayName": "Week of Posts",
+      "source": "./plugins/repurpose",
+      "description": "Turns one video, podcast or newsletter transcript into a week of posts in your voice, then schedules them with Postkey when you ask.",
+      "version": "0.9.0",
+      "author": {
+        "name": "Austin White · Rabbithole Labs"
+      }
+    },
+    {
+      "name": "business-brain",
+      "displayName": "Business Brain",
+      "source": "./plugins/business-brain",
+      "description": "Builds your business brain: seven files with your offer, customers, goals and tone of voice, so Claude writes like you.",
+      "version": "0.9.0",
+      "author": {
+        "name": "Austin White · Rabbithole Labs"
+      }
+    },
+    {
+      "name": "reply-drafter",
+      "displayName": "Reply Drafter",
+      "source": "./plugins/reply-drafter",
+      "description": "Finds customer emails waiting on you and drafts replies in your voice.",
+      "version": "0.9.0",
+      "author": {
+        "name": "Austin White · Rabbithole Labs"
+      }
+    },
+    {
+      "name": "follow-up",
+      "displayName": "Follow-up",
+      "source": "./plugins/follow-up",
+      "description": "Finds quotes, leads, unpaid invoices and quiet past customers, and drafts the nudge.",
+      "version": "0.9.0",
+      "author": {
+        "name": "Austin White · Rabbithole Labs"
+      }
+    },
+    {
+      "name": "daily-brief",
+      "displayName": "Daily Brief",
+      "source": "./plugins/daily-brief",
+      "description": "A weekday morning brief: calendar, replies waiting, follow-ups and today's one thing.",
+      "version": "0.9.0",
+      "author": {
+        "name": "Austin White · Rabbithole Labs"
+      }
+    },
+    {
+      "name": "brain-score",
+      "displayName": "Brain Score",
+      "source": "./plugins/brain-score",
+      "description": "Scores your Claude setup out of 100 with the top 3 fixes.",
+      "version": "0.9.0",
+      "author": {
+        "name": "Austin White · Rabbithole Labs"
+      }
+    },
+    {
       "name": "my-business-kit",
       "displayName": "My Business Kit",
       "source": "./plugins/my-business-kit",
-      "description": "Six skills that make Claude run the busywork of a small business: a business brain, inbox replies, follow-ups, a week of posts, a morning brief, and a score for your setup. Everything is drafted for you to review; nothing is sent on its own.",
-      "version": "0.6.0",
+      "description": "Seven skills that make Claude run the busywork of a small business: a business brain, inbox replies, follow-ups, a week of posts, 30 hooks from viral videos, a morning brief, and a score for your setup. Everything is drafted for you to review; nothing is sent on its own.",
+      "version": "0.9.0",
       "author": {
-        "name": "Austin White \u00b7 Rabbithole Labs"
+        "name": "Austin White · Rabbithole Labs"
       }
     }
   ]
