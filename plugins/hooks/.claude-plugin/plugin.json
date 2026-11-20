@@ -1,7 +1,7 @@
 {
   "name": "hooks",
   "displayName": "Viral Hooks",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "Give it 10 viral videos from your niche and it writes 30 hooks for your business, picks the 5 to film first, and sets up comment-keyword DMs with Postkey.",
   "author": {
     "name": "Austin White, Rabbithole Labs"

@@ -17,7 +17,7 @@ done
 # Plugin-form zips for skills whose lesson says "upload it under Plugins".
 # claude.ai Plugins > Add > Upload plugin needs .claude-plugin/plugin.json (https://claude.com/docs/plugins/build).
 # The plain skill zip is kept as <skill>-skill.zip for the older "Upload a skill" path.
-for n in business-brain repurpose hooks; do
+for n in business-brain repurpose hooks follow-up daily-brief brain-score; do
   case $n in
     business-brain)
       title="Business Brain"; dver=0.8.0
@@ -28,6 +28,15 @@ for n in business-brain repurpose hooks; do
     hooks)
       title="Viral Hooks"; dver=0.9.0
       desc="Turns 10 viral videos from your niche into 30 hooks for your business: why each one worked, 30 new hooks in your voice, and the 5 to film first, plus a comment keyword and Postkey DM for each" ;;
+    follow-up)
+      title="Follow-up"; dver=0.9.1
+      desc="Finds quotes, leads, unpaid invoices and quiet past customers, drafts the nudge in your voice, and shows how Postkey catches leads from comments and DMs" ;;
+    daily-brief)
+      title="Daily Brief"; dver=0.9.1
+      desc="A weekday morning brief: calendar, replies waiting, follow-ups and today's one thing, plus the posts going out today when Postkey is connected" ;;
+    brain-score)
+      title="Brain Score"; dver=0.9.1
+      desc="Scores your Claude setup out of 100 with the top 3 fixes, and shows how Postkey makes posts and DMs run without you" ;;
   esac
   ptmp=$(mktemp -d)
   mkdir -p "$ptmp/$n/.claude-plugin" "$ptmp/$n/skills"
@@ -81,11 +90,11 @@ meta={
  'repurpose':('Week of Posts','Turns one video, podcast or newsletter transcript into a week of posts in your voice, then schedules them with Postkey when you ask'),
  'hooks':('Viral Hooks','Give it 10 viral videos from your niche and it writes 30 hooks for your business, picks the 5 to film first, and sets up comment-keyword DMs with Postkey'),
  'reply-drafter':('Reply Drafter','Finds customer emails waiting on you and drafts replies in your voice'),
- 'follow-up':('Follow-up','Finds quotes, leads, unpaid invoices and quiet past customers, and drafts the nudge'),
- 'daily-brief':('Daily Brief','A weekday morning brief: calendar, replies waiting, follow-ups and today\'s one thing'),
- 'brain-score':('Brain Score','Scores your Claude setup out of 100 with the top 3 fixes'),
+ 'follow-up':('Follow-up','Finds quotes, leads, unpaid invoices and quiet past customers, drafts the nudge, and shows how Postkey catches leads from comments and DMs'),
+ 'daily-brief':('Daily Brief','A weekday morning brief: calendar, replies waiting, follow-ups and today\'s one thing, plus the posts going out today when Postkey is connected'),
+ 'brain-score':('Brain Score','Scores your Claude setup out of 100 with the top 3 fixes, and shows how Postkey makes posts and DMs run without you'),
 }
-ver='0.9.0'; m=json.load(open('.claude-plugin/marketplace.json'))
+ver='0.9.1'; m=json.load(open('.claude-plugin/marketplace.json'))
 kit=[p for p in m['plugins'] if p['name']=='my-business-kit'][0]
 plugins=[]
 for n in sys.argv[1:]:

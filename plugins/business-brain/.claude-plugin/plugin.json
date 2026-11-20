@@ -1,7 +1,7 @@
 {
   "name": "business-brain",
   "displayName": "Business Brain",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "Builds your business brain: seven files with your offer, customers, goals and tone of voice, so Claude writes like you.",
   "author": {
     "name": "Austin White, Rabbithole Labs"

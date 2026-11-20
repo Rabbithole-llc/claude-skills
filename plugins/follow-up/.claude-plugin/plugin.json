@@ -1,8 +1,8 @@
 {
   "name": "follow-up",
   "displayName": "Follow-up",
-  "version": "0.9.0",
-  "description": "Finds quotes, leads, unpaid invoices and quiet past customers, and drafts the nudge.",
+  "version": "0.9.1",
+  "description": "Finds quotes, leads, unpaid invoices and quiet past customers, drafts the nudge, and shows how Postkey catches leads from comments and DMs.",
   "author": {
     "name": "Austin White, Rabbithole Labs"
   },

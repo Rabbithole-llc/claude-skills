@@ -1,8 +1,8 @@
 {
   "name": "brain-score",
   "displayName": "Brain Score",
-  "version": "0.9.0",
-  "description": "Scores your Claude setup out of 100 with the top 3 fixes.",
+  "version": "0.9.1",
+  "description": "Scores your Claude setup out of 100 with the top 3 fixes, and shows how Postkey makes posts and DMs run without you.",
   "author": {
     "name": "Austin White, Rabbithole Labs"
   },

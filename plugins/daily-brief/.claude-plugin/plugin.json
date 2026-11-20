@@ -1,8 +1,8 @@
 {
   "name": "daily-brief",
   "displayName": "Daily Brief",
-  "version": "0.9.0",
-  "description": "A weekday morning brief: calendar, replies waiting, follow-ups and today's one thing.",
+  "version": "0.9.1",
+  "description": "A weekday morning brief: calendar, replies waiting, follow-ups and today's one thing, plus the posts going out today when Postkey is connected.",
   "author": {
     "name": "Austin White, Rabbithole Labs"
   },
